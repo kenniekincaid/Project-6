@@ -1,0 +1,91 @@
+//Step 1: JSON file containing all of the data about my projects.
+{
+  "projects": [ //Errors! Check formatting*/ 
+    {
+      "id": "001",
+      "project_name": "Random Quote Generator",
+      "description": "Unit 1 Project",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link": "https://kenniekincaid.github.io/a_random_quote_generator-v1/",
+      "github_link": "https://github.com/kenniekincaid/a_random_quote_generator-v1",
+      "image_urls": [
+        "images/i001.jpg",
+        "images/i002.png"
+      ]
+    },
+    {
+      "id": "002",
+      "project_name": "List Pagination & Filtering",
+      "description": "Unit 2 Project",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_link": "https://kenniekincaid.github.io/list_pagination_and_filtering-v1/",
+      "github_link": "...github.com",
+      "image_urls": [
+        "images/i001.jpg",
+        "images/i002.png"
+      ]
+    },
+    {
+      "id": "003",
+      "project_name": "Interactive User",
+      "description": "Unit 3 Project",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery"
+      ],
+      "live_link": "http://www.yoururl.com",
+      "github_link": "...github.com",
+      "image_urls": [
+        "images/i001.jpg",
+        "images/i002.png"
+      ]
+    },
+    {
+      "id": "004",
+      "project_name": "OOP Game",
+      "description": "Unit 4 Project",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery"
+      ],
+      "live_link": "http://www.yoururl.com",
+      "github_link": "...github.com",
+      "image_urls": [
+        "images/i001.jpg",
+        "images/i002.png"
+      ]
+    },
+    {
+      "id": "005",
+      "project_name": "Public API Requests",
+      "description": "Unit 5 Project",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "API",
+        "JSON",
+        "XML"
+      ],
+      "live_link": "http://www.yoururl.com",
+      "github_link": "...github.com",
+      "image_urls": [
+        "images/i001.jpg",
+        "images/i002.png"
+      ]
+    }
+  ]
+}
