@@ -1,6 +1,6 @@
 extends layout.pug
 
 block content
-    h1= `${error.message}`
-    h2= `${error.status}`
-    pr= `${error.stack}`
+    h1= error.message
+    h2 Status Code: #{error.status}
+    pr= error.stack

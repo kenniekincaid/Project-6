@@ -1,9 +1,9 @@
 
 //Set up Express server
 const express = require('express');//Set up Express server
-const projects = require('./data.json');
+const { projects } = require('./data.json');
 const bodyParser = require('body-parser');
-const router = express.Router();
+// const router = express.Router();
 //Express app created
 const app = express();
 
@@ -17,8 +17,8 @@ app.use(bodyParser.urlencoded({ extended: false}));
 
 //Express will look for files with the Pug extension...
 app.get('/', (req, res) => {//express knows to look for pug files b/c set to view engine, pug...
-    res.locals.data.projects;
-    res.render('index', `${projects}`);
+    res.locals.projects = projects;
+    res.render('index');
 });
 
 app.get('/about', (req, res) => {
@@ -47,13 +47,13 @@ app.get('/project', (req, res) => {
 // };
 
 //set up routes
-const routes = require('./routes');
+// const routes = require('./routes');
 
-app.use(routes);
+// app.use(routes);
 
-app.get('/', (req, res) => {
-    res.send('<h1>Welcome! This is Kennie Kincaid!</h1>');//pass in template
-});
+// app.get('/', (req, res) => {
+//     res.send('<h1>Welcome! This is Kennie Kincaid!</h1>');//pass in template
+// });
 
 app.use((req, res, next) => {
     const err = new Error('Oops! Page Not Found');
@@ -62,15 +62,16 @@ app.use((req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
-    res.locals.error = err;
+    // res.locals.error = err;
+    err.status = err.status || 500;
     res.status(err.status);
-    res.render('error', {error});
+    res.render('error', {error: err});
 });
 
 const port = 3000;
-app.listen(port, () => console.log(`App is listening on port ${port}!`));
+app.listen(port, () => console.log(`Kennie's fabulous app is listening on port ${port}!`));
 
-module.exports = router
+// module.exports = router
 
 // Server to repond to requests
 
