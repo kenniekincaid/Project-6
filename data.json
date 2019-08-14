@@ -1,8 +1,7 @@
-//Step 1: JSON file containing all of the data about my projects.
 {
-  "projects": [ //Errors! Check formatting*/ 
+  "projects": [
     {
-      "id": "001",
+      "id": "0",
       "project_name": "Random Quote Generator",
       "description": "Unit 1 Project",
       "technologies": [
@@ -13,12 +12,15 @@
       "live_link": "https://kenniekincaid.github.io/a_random_quote_generator-v1/",
       "github_link": "https://github.com/kenniekincaid/a_random_quote_generator-v1",
       "image_urls": [
-        "images/i001.jpg",
-        "images/i002.png"
+        "Project1_img1.PNG",
+        "Project1_img2.PNG",
+        "Project1_img3.PNG",
+        "Project1_img1_WIDE.PNG",
+        "Project1_img2_WIDE.PNG"
       ]
     },
     {
-      "id": "002",
+      "id": "1",
       "project_name": "List Pagination & Filtering",
       "description": "Unit 2 Project",
       "technologies": [
@@ -27,14 +29,15 @@
         "JavaScript"
       ],
       "live_link": "https://kenniekincaid.github.io/list_pagination_and_filtering-v1/",
-      "github_link": "...github.com",
+      "github_link": "https://github.com/kenniekincaid/list_pagination_and_filtering-v1",
       "image_urls": [
-        "images/i001.jpg",
-        "images/i002.png"
+        "Project2_img1.PNG",
+        "Project2_img1_WIDE.PNG",
+        "Project2_img2_WIDE.PNG"
       ]
     },
     {
-      "id": "003",
+      "id": "2",
       "project_name": "Interactive User",
       "description": "Unit 3 Project",
       "technologies": [
@@ -43,15 +46,16 @@
         "JavaScript",
         "jQuery"
       ],
-      "live_link": "http://www.yoururl.com",
-      "github_link": "...github.com",
+      "live_link": "https://kenniekincaid.github.io/interactive-form-v1/",
+      "github_link": "https://github.com/kenniekincaid/interactive-form-v1",
       "image_urls": [
-        "images/i001.jpg",
-        "images/i002.png"
+        "Project3_img1.PNG",
+        "Project3_img1_WIDE.PNG",
+        "Project3_img2_WIDE.PNG"
       ]
     },
     {
-      "id": "004",
+      "id": "3",
       "project_name": "OOP Game",
       "description": "Unit 4 Project",
       "technologies": [
@@ -60,15 +64,16 @@
         "JavaScript",
         "jQuery"
       ],
-      "live_link": "http://www.yoururl.com",
-      "github_link": "...github.com",
+      "live_link": "https://kenniekincaid.github.io/oop_game-v2/",
+      "github_link": "https://github.com/kenniekincaid/oop_game-v2",
       "image_urls": [
-        "images/i001.jpg",
-        "images/i002.png"
+        "Project4_img1.PNG",
+        "Project4_img1_WIDE.PNG",
+        "Project4_img2_WIDE.PNG"
       ]
     },
     {
-      "id": "005",
+      "id": "4",
       "project_name": "Public API Requests",
       "description": "Unit 5 Project",
       "technologies": [
@@ -76,15 +81,17 @@
         "CSS",
         "JavaScript",
         "jQuery",
+        "AJAX",
         "API",
         "JSON",
         "XML"
       ],
-      "live_link": "http://www.yoururl.com",
-      "github_link": "...github.com",
+      "live_link": "https://kenniekincaid.github.io/public_api_request-v1/",
+      "github_link": "https://github.com/kenniekincaid/public_api_request-v1",
       "image_urls": [
-        "images/i001.jpg",
-        "images/i002.png"
+        "Project5_img1.PNG",
+        "Project5_img1_WIDE.PNG",
+        "Project5_img2_WIDE.PNG"
       ]
     }
   ]
