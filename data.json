@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "id": "0",
+      "id": "1",
       "project_name": "Random Quote Generator",
       "description": "Unit 1 Project",
       "technologies": [
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "id": "1",
+      "id": "2",
       "project_name": "List Pagination & Filtering",
       "description": "Unit 2 Project",
       "technologies": [
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": "3",
       "project_name": "Interactive User",
       "description": "Unit 3 Project",
       "technologies": [
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": "4",
       "project_name": "OOP Game",
       "description": "Unit 4 Project",
       "technologies": [
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": "5",
       "project_name": "Public API Requests",
       "description": "Unit 5 Project",
       "technologies": [

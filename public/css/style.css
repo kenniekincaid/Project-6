@@ -148,3 +148,10 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+body {
+  background-image: url('https://www.desktop-background.com/download/2560x1440/2010/12/16/127022_light-grey-backgrounds-hd_2560x1600_h.jpg');
+  background-size: cover;
+  background-position: fixed;
+}
+
