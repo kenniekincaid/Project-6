@@ -1,6 +1,7 @@
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+  color: rgb(49, 49, 49);
 }
 
   h5{
@@ -8,6 +9,7 @@ h1,h2,h3,h4,h5,p{
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
+    color: white;
   }
 
   h6{
@@ -19,7 +21,7 @@ h1,h2,h3,h4,h5,p{
 
   p{
     font-size: 15px;
-    color: #666;
+    color: rgb(49, 49, 49);
   }
 
 .round{
@@ -27,7 +29,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: rgb(49, 49, 49);
 }
 
 .button{
@@ -39,11 +41,11 @@ h1,h2,h3,h4,h5,p{
 }
 
 a{
-  color: #333;
+  color: rgb(49, 49, 49);
 }
 
 a:hover{
-  color: #111;
+  color: #rgb(49, 49, 49);
 }
 
 .image{
@@ -58,34 +60,38 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
-  color: #fff;
+  /* background: #352912; */
+  background: #000000;
+  color: rgb(255, 255, 255);
   box-shadow: none !important;
+  text-shadow: 0 0 10px #fff, 0 0 20px rgb(236, 255, 184), 0 0 30px #464646, 0 0 40px #a1a19f, 0 0 50px #808080, 0 0 60px #706c6e, 0 0 70px #e60073;
+  /* text-shadow: 0 0 20px #fff, 0 0 30px #fffc37, 0 0 40px #ffd04d, 0 0 50px #e4ff4d, 0 0 60px #f3ff4d, 0 0 70px #ff4da6, 0 0 80px #ff4da6; */
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: rgb(255, 255, 255);
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: rgb(255, 255, 255);
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
+
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: rgb(251, 153, 219);
   }
 
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #000000;
 }
 
  .portfolio-breadcrumb a{
@@ -103,7 +109,7 @@ a:hover{
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #000000;
   padding-bottom: 40px;
 }
 
@@ -117,7 +123,7 @@ a:hover{
   }
 
   .portfolio-index a{
-    color: #222;
+    color: rgb(49, 49, 49);
   }
 
   .portfolio-index .cell{
@@ -126,6 +132,7 @@ a:hover{
 
     .portfolio-index .cell h5{
       letter-spacing: 1px;
+      color: rgb(49, 49, 49);
     }
 
 .portfolio-meta{
@@ -142,7 +149,7 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color: rgb(49, 49, 49);
 }
 
 .portfolio-bio{
@@ -150,8 +157,12 @@ a:hover{
 }
 
 body {
-  background-image: url('https://www.desktop-background.com/download/2560x1440/2010/12/16/127022_light-grey-backgrounds-hd_2560x1600_h.jpg');
-  background-size: cover;
-  background-position: fixed;
+  /* background-image: url('https://media.freestocktextures.com/cache/c5/b3/c5b3748303db3afe1e0599437ff3b36f.jpg'); */
+  /* background-image: url('https://wallpaperstock.net/resumen-de-medios%2C-estilos-wallpapers_55580_1920x1200.jpg'); */
+  /* background-image: url('https://www.desktop-background.com/download/2560x1440/2010/12/16/127022_light-grey-backgrounds-hd_2560x1600_h.jpg'); */
+  background-image: url('https://backgrounddownload.com/wp-content/uploads/2018/09/white-gradient-hd-background-1.jpg');
+  /* background-image: url('https://cdn.pixabay.com/photo/2016/01/11/22/05/background-1134468_960_720.jpg'); */
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
