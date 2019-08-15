@@ -30,10 +30,11 @@
     });
     app.use((err, req, res, next) => {
         err.status = err.status || 500;
+        console.log('Internal Server Error');
         res.status(err.status);
         res.render('error', {error: err});
     });
 
-/**PPORT LISTE ERT...*/
+/**LISTENER...*/
     const port = 3000;
     app.listen(port, () => console.log(`Kennie's fabulous app is listening on port ${port}!`));

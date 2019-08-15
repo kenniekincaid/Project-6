@@ -45,7 +45,7 @@ a{
 }
 
 a:hover{
-  color: #rgb(49, 49, 49);
+  color: rgb(49, 49, 49);
 }
 
 .image{
@@ -60,12 +60,10 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  /* background: #352912; */
   background: #000000;
   color: rgb(255, 255, 255);
   box-shadow: none !important;
   text-shadow: 0 0 10px #fff, 0 0 20px rgb(236, 255, 184), 0 0 30px #464646, 0 0 40px #a1a19f, 0 0 50px #808080, 0 0 60px #706c6e, 0 0 70px #e60073;
-  /* text-shadow: 0 0 20px #fff, 0 0 30px #fffc37, 0 0 40px #ffd04d, 0 0 50px #e4ff4d, 0 0 60px #f3ff4d, 0 0 70px #ff4da6, 0 0 80px #ff4da6; */
 }
 
   .portfolio-me p{
